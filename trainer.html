@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Original Frames</title>
+<title>Original Cards</title>
 <style>
   body {
     font-family: monospace;
@@ -132,7 +132,7 @@
       });
 
       if (images.length === 0) {
-        statusEl.textContent = 'No frames found in "' + FRAMES_PATH + '".';
+        statusEl.textContent = 'No cards found in "' + FRAMES_PATH + '".';
         return;
       }
 
@@ -164,10 +164,10 @@
         gridEl.appendChild(card);
       });
 
-      statusEl.textContent = images.length + ' frame' + (images.length === 1 ? '' : 's') + ' available';
+      statusEl.textContent = images.length + ' card' + (images.length === 1 ? '' : 's') + ' available';
     })
     .catch(function(err) {
-      statusEl.textContent = 'Could not load the frame list (' + err.message + '). ' +
+      statusEl.textContent = 'Could not load the card list (' + err.message + '). ' +
         'Double-check the REPO/FRAMES_PATH values at the top of this page\u2019s script.';
     });
   var lightbox = document.getElementById('lightbox');
