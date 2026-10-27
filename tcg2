@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Gameboy Pokemon TCG 2 Prints</title>
+<style>
+body {
+  font-family: monospace;
+  background: #eb0c0c;
+  color: #faf7f7;
+  margin: 0;
+  padding: 24px 16px 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+h1 {
+  text-align: center;
+  margin: 0 0 6px;
+}
+p.sub {
+  text-align: center;
+  max-width: 480px;
+  margin: 0 auto 32px;
+  line-height: 1.5;
+}
+.menu {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  width: 100%;
+  max-width: 360px;
+}
+.menu a {
+  display: block;
+  background: #faf7f7;
+  border: 2px solid #0f380f;
+  border-radius: 6px;
+  padding: 16px 18px;
+  color: #700b03;
+  text-decoration: none;
+}
+.menu a:hover {
+  background: #700b03; 
+  color: #faf7f7; 
+}
+.menu .label {
+  font-weight: bold;
+  font-size: 15px;
+  margin-bottom: 4px;
+}
+.menu .desc {
+  font-size: 12px;
+  line-height: 1.4;
+}
+  a.back {
+    display: block;
+    text-align: center;
+    margin-top: 32px;
+    color: #faf7f7;
+  }
+footer {
+  margin-top: 40px;
+  font-size: 11px;
+  text-align: center;
+  max-width: 400px;
+  line-height: 1.5;
+}
+</style>
+</head>
+<body>
+
+<h1>Gameboy Pokemon TCG 2 Card Prints</h1>
+<p class="sub">PNG files of the Pokemon TCG 2 card prints.</p>
+
+<div class="menu">
+  <a href="trainer2.html">
+    <div class="label">Trainer / Item Cards</div>
+    <div class="desc">Original trainer and items card prints.</div>
+  </a>
+
+  <a href="water2.html">
+    <div class="label">Water Cards</div>
+    <div class="desc">Original water card prints.</div>
+  </a>
+
+  <a href="fighting2.html">
+    <div class="label">Fighting Cards</div>
+    <div class="desc">Original fighting cards prints.</div>
+  </a>
+
+  <a href="psychic2.html">
+    <div class="label">Psychic Cards</div>
+    <div class="desc">Original psychic cards prints.</div>
+  </a>
+
+  <a href="electric2.html">
+    <div class="label">Electric Cards</div>
+    <div class="desc">Original electric card prints.</div>
+  </a>
+
+  <a href="grass2.html">
+    <div class="label">Grass Cards</div>
+    <div class="desc">Oringinal grass card prints.</div>
+  </a>
+
+  <a href="fire2.html">
+    <div class="label">Fire Cards</div>
+    <div class="desc">Oringinal fire card prints.</div>
+  </a>
+
+  <a href="colorless2.html">
+    <div class="label">Colorless Cards</div>
+    <div class="desc">Oringinal colorless card prints.</div>
+  </a>
+
+  <a href="energy2.html">
+    <div class="label">Energy Cards</div>
+    <div class="desc">Oringinal energy card prints.</div>
+  </a>
+
+<a href="https://github.com/nilltronic/pokemontcg/raw/refs/heads/main/pokemon_tcg_png.zip">
+    <div class="label">Download All Cards </div>
+    <div class="desc">Download a zip file of all the Gameboy Pokemon tcg 2 card prints.</div>
+  </a>  
+</div>
+<footer>
+  Gameboy TCG Card Rips by nilltronic.
+  </p>
+  <a class="back" href="index.html">&larr; Back to the index</a>
+</footer>
+
+</body>
+</html>
